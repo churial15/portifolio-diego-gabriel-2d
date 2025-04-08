@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 1.5cm 5%;
+    padding: 1.scm 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ font-weight: 700;
 color: var(--accent);
 text-decoration: none;
 position: relative;
-padding-left: 2.5rem;
+padding-left: 2.5rcm;
 }
 
 .nav-links {
@@ -51,6 +51,13 @@ position: relative;
     width: 100%;
 }
 
+.hero {
+min-height: 100vh;
+display:flex;
+align-items:center;
+padding:12% 5%;
+background:radial-gradient(circle at 75% 30%)var(--accent-glow) 0%, transparent 30%;
+}
 .img-redonda {
     width: 200px;        /* ou qualquer tamanho que quiser */
     height: 200px;       /* deixa quadrado pra ficar perfeitamente redondo */
